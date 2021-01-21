@@ -1,0 +1,40 @@
+.header{
+    width:100%;
+    background-color: #00887A;
+    height: 50px;   
+}
+
+.button-wrapper{
+    display: flex;
+    gap: 8px;     
+    margin-left: 80%;
+    justify-content: flex-end;
+}
+
+.header-button{
+    color:#FFCCBC;
+    width: 90px;
+    height: 50px;
+}
+
+.header-button p{
+    padding-top:12px;
+    text-align:center;
+    margin:0;
+    font-family: 'Antic Slab', serif;
+}
+
+.header-button:hover{
+    background-color: white;
+    color:#00887A;
+    width: 90px;
+    height: 50px;
+
+}
+
+/*------------------------------------Media Queries-----------------------------*/
+@media only screen and (max-width: 600px) {
+    .header {
+     
+    }
+  }
